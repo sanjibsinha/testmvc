@@ -1,0 +1,25 @@
+{
+    "name": "ss/testmvc",
+    "description": "testing mvc patterns",
+    "type": "project",
+    "require": {
+        "cocur/slugify": "^3.1",
+        "monolog/monolog": "^1.23"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+    
+    "psr-4": {
+        "Karnel\\": "karnel/classes",
+        "Contracts\\": "karnel/contracts",
+        "Behave\\": "karnel/behaviours",
+        "Controller\\": "karnel/controllers",
+        "Layout\\": "karnel/layout",
+        "Database\\": "karnel/databases",
+        "Model\\": "karnel/models",
+        "View\\": "karnel/views"
+        
+    }
+        
+    }
+}
